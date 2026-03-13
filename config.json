@@ -45,7 +45,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Your_Bot_Name",
+  "nickNameBot": "shakil.only1",
   "prefix": ")",
   "database": {
     "type": "sqlite",
@@ -57,7 +57,7 @@
   "timeZone": "Asia/Dhaka",
     "credentials": {
     "gmailAccount": {
-      "email": "maybesaim12@gmail.com",
+      "email": "shakil.sabser@gmail.com",
       "clientId": "100897454411-5r8hk9opvdijmogm98ksttg4asvfs3u6.apps.googleusercontent.com",
       "clientSecret": "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",
       "refreshToken": "1//04CwY3A993tGWCgYIARAAGAQSNwF-L9IrEMdVj25IWIOrpT0HX7Lo4YXx6ce0JP-C3GjKoyWSFb_-f_N3oHRL15ZwrsQ8TpBsjmI",
