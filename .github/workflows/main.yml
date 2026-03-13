@@ -1,1 +1,29 @@
+name: Update Account
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create or Update account.txt
+        run: |
+          echo "Account updated on: $(date)" > account.txt
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add account.txt
+          git commit -m "Update account.txt via GitHub Actions"
+          git push
 
